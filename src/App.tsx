@@ -1,11 +1,7 @@
-import reactLogo from './assets/react.svg'
+import SignupForm from './components/SignupForm'
 
 function App() {
-  return (
-    <>
-      <img src={reactLogo} className="logo react" alt="React logo" />
-    </>
-  )
+  return <SignupForm />
 }
 
 export default App
